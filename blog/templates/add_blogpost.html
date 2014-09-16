@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form method="POST">
+    {% csrf_token %}
+    {{ blogpost_form }}
+    <input type="submit" value="Submit blog post" />
+</form>
+<a href="{% url 'home' %}">Home</a><br>
+<a href="{% url 'add_author' %}">Add an Author</a><br>
+<a href="{% url "add_comment" %}">Add a comment</a><br>
+<a href="{% url "add_tag" %}">Add a Tag</a><br>
+</body>
+</html>

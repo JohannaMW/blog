@@ -7,6 +7,9 @@ from blog.models import Tag
 
 
 class ViewTestCase(TestCase):
+    def add_user(self):
+
+
     @patch('cards.utils.requests')
     def test_home(self, mock_requests):
         mock_comic = {
@@ -45,5 +48,24 @@ class ViewTestCase(TestCase):
         self.assertTrue(response.get('location').endwith(reverse('home')))
 
     def test_contact(self):
-            response = self.client.get(reverse('contact'))
-            self.assertIn(b'<input type="submit" value="Send contact request" />', response.content)
+        name = 'jane-test'
+        email = 'jane-test@test.com'
+        subject = 'testing contact form'
+        message = 'if you can read this then the test was a success!'
+        data = {
+            'name': name,
+            'email': email,
+            'subject': subject,
+            'message': message
+        }
+        response = self.client.get(reverse('contact'), data)
+
+        # Check to see if form exists
+        self.assertIn(b'<input type="submit" value="Send contact request" />', response.content)
+
+        # Check this message was added in the database
+        self.assertTrue(Tag.objects.filter(name=name).exists())
+
+        # Check it redirects to the blog post page
+        self.assertIsInstance(response, HttpResponseRedirect)
+        self.assertTrue(response.get('location').endwith(reverse('home')))

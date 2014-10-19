@@ -13,5 +13,5 @@ urlpatterns = patterns('',
     url(r'^authors/$', 'blog.views.authors', name='authors'),
     url(r'^tag/new/$', 'blog.views.add_tag', name='add_tag'),
     url(r'^contact/$', 'blog.views.contact', name='contact'),
-    url(r'^/', 'blog.views.home', name='home'),
+    url(r'^home/$', 'blog.views.home', name='home'),
 )

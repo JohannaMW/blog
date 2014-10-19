@@ -7,13 +7,22 @@ from models import Comment, BlogPost, Author, Tag, User
 def home(request):
     return render_to_response("home.html")
 
+def comments(request):
+    return render_to_response("comments.html")
+
+def blogposts(request):
+    return render_to_response("blogposts.html")
+
+def authors(request):
+    return render_to_response("authors.html")
+
 def add_comment(request):
     data = { "comment_form": CommentForm() }
     if request.method == 'POST':
         form = CommentForm(request.POST)
         if form.is_valid():
             Comment.objects.create(author=form.cleaned_data['author'], body = form.cleaned_data['comment_body'])
-            return redirect("/comments/new/")
+            return redirect("comments")
 
         else:
             data = { "comment_form": CommentForm(request.POST) }
@@ -23,31 +32,34 @@ def add_comment(request):
         return render(request, "add_comment.html", data)
 
 def add_blogpost(request):
+    data = { "blogpost_form": BlogPostForm() }
     if request.method == 'POST':
         form = BlogPostForm(request.POST)
         if form.is_valid():
             blogpost = BlogPost.objects.create(author=form.cleaned_data['author'], title = form.cleaned_data['title'],
                                     text = form.cleaned_data['text'] )
             blogpost.save()
-            return redirect("/blogpost/new/")
+            return redirect("blogposts")
 
     else:
         data = { "blogpost_form": BlogPostForm() }
     return render(request, "add_blogpost.html", data)
 
 def add_author(request):
+    data = { "author_form": AuthorForm() }
     if request.method == 'POST':
         form = AuthorForm(request.POST)
         if form.is_valid():
             author = Author.objects.create(name=form.cleaned_data['name'])
             author.save()
-            return redirect("/author/new/")
+            return redirect("authors")
 
     else:
         data = { "author_form": AuthorForm() }
     return render(request, "add_author.html", data)
 
 def add_tag(request):
+    data = { "tag_form": TagForm() }
     if request.method == 'POST':
         form = TagForm(request.POST)
         if form.is_valid():

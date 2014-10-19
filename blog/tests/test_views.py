@@ -1,6 +1,11 @@
+from django.core.urlresolvers import reverse
+from django.http import HttpResponseRedirect
 from django.test import TestCase
 
 # Create your tests here.
+from blog.models import Tag
+
+
 class ViewTestCase(TestCase):
     @patch('cards.utils.requests')
     def test_home(self, mock_requests):
@@ -24,7 +29,20 @@ class ViewTestCase(TestCase):
                       response.content)
         self.assertIn('<p>{}</p>'.format(mock_comic['transcript']), response.content)
 
-add_tag
+    def test_add_tag(self):
+        name = 'happy-test-tag'
+        data = {
+            'name': name,
+            'post': post
+        }
+        response = self.client.post(reverse('add_tag'), data)
+
+        # Check this tag was added in the database
+        self.assertTrue(Tag.objects.filter(name=name).exists())
+
+        # Check it redirects to the blog post page
+        self.assertIsInstance(response, HttpResponseRedirect)
+        self.assertTrue(response.get('location').endwith(reverse('home')))
 
     def test_contact(self):
             response = self.client.get(reverse('contact'))

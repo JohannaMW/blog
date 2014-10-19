@@ -30,9 +30,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'django.contrib.contenttypes',
     'django.contrib.admin',
     'django.contrib.auth',
-    'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
@@ -53,7 +53,7 @@ ROOT_URLCONF = 'bloggy.urls'
 
 WSGI_APPLICATION = 'bloggy.wsgi.application'
 
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 

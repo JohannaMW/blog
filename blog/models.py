@@ -25,7 +25,7 @@ class Tag(models.Model):
     name = models.CharField(max_length=120)
     post = models.ManyToManyField(BlogPost, blank=True, null=True, related_name="tag")
 
-class User(models.Model):
+class Reader(models.Model):
     name = models.CharField(max_length=120)
     email = models.EmailField()
 

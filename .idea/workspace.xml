@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
     <list default="true" id="18402c68-c34c-4c24-9ec0-c7164215f264" name="Default" comment="" />
 =======
+>>>>>>> master
     <list default="true" id="18402c68-c34c-4c24-9ec0-c7164215f264" name="Default" comment="">
 <<<<<<< HEAD
 =======
@@ -89,6 +92,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/tests/test_views.py" afterPath="$PROJECT_DIR$/blog/tests/test_views.py" />
 >>>>>>> master
     </list>
+<<<<<<< HEAD
+=======
+    <list default="true" id="18402c68-c34c-4c24-9ec0-c7164215f264" name="Default" comment="" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
+>>>>>>> master
 >>>>>>> master
     <ignored path="bloggy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,11 +124,16 @@
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="570">
 =======
             <state vertical-scroll-proportion="-10.12" vertical-offset="227" max-vertical-offset="570">
 >>>>>>> master
               <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
               <folding />
             </state>
           </provider>
@@ -180,11 +194,18 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+<<<<<<< HEAD
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="960">
               <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
               <folding />
             </state>
           </provider>
@@ -210,11 +231,13 @@
               <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
 >>>>>>> master
 >>>>>>> master
+>>>>>>> master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
@@ -229,10 +252,21 @@
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
 >>>>>>> master
               <folding />
+=======
+      <file leaf-file-name="test_selenium.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/tests/test_selenium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1371" max-vertical-offset="2130">
+              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/forms.py">
@@ -246,19 +280,33 @@
             <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
               <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
 >>>>>>> master
+=======
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.88616717" vertical-offset="0" max-vertical-offset="1275">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
               <folding />
             </state>
           </provider>
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 <<<<<<< HEAD
       <file leaf-file-name="test_forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/tests/test_forms.py">
+=======
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/forms.py">
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="540">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
 =======
       <file leaf-file-name="test_views.py" pinned="false" current="true" current-in-tab="true">
@@ -275,6 +323,9 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 >>>>>>> master
       <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/tests/utils.py">
@@ -297,6 +348,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="210">
               <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
 =======
@@ -307,6 +359,13 @@
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
 >>>>>>> master
               <folding />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
             </state>
           </provider>
         </entry>
@@ -337,15 +396,13 @@
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/bloggy/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/contact.html" />
-        <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog/forms.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/bloggy/settings.py" />
         <option value="$PROJECT_DIR$/blog/tests/test_models.py" />
         <option value="$PROJECT_DIR$/blog/tests/test_forms.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+<<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/blog/templates/contact.html" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
@@ -367,14 +424,24 @@
         <option value="$PROJECT_DIR$/blog/forms.py" />
         <option value="$PROJECT_DIR$/blog/tests/test_views.py" />
 >>>>>>> master
+=======
+        <option value="$PROJECT_DIR$/blog/tests/test_selenium.py" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/admin.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="x" value="551" />
+=======
+    <option name="x" value="260" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
     <option name="y" value="22" />
-    <option name="width" value="815" />
+    <option name="width" value="1180" />
     <option name="height" value="874" />
 =======
     <option name="x" value="65" />
@@ -409,6 +476,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -532,7 +600,6 @@
 >>>>>>> master
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,9 +723,13 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -680,9 +751,13 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+<<<<<<< HEAD
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
 =======
 <<<<<<< HEAD
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+>>>>>>> master
 >>>>>>> master
 >>>>>>> master
       <method />
@@ -711,10 +786,13 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
 =======
+>>>>>>> master
 =======
 >>>>>>> master
 >>>>>>> master
@@ -741,6 +819,12 @@
       <option name="customRunCommand" value="" />
 <<<<<<< HEAD
 =======
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 >>>>>>> master
 >>>>>>> master
       <method />
@@ -921,14 +1005,25 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="551" y="22" width="815" height="874" extended-state="0" />
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     <editor active="true" />
 =======
+>>>>>>> master
     <editor active="false" />
 =======
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
+>>>>>>> master
+<<<<<<< HEAD
+=======
+    <frame x="260" y="22" width="1180" height="874" extended-state="0" />
+    <editor active="true" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
 >>>>>>> master
 >>>>>>> master
     <layout>
@@ -938,6 +1033,14 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3661061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29261863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38421732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
 <<<<<<< HEAD
@@ -945,6 +1048,7 @@
 =======
 <<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3661061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> master
 >>>>>>> master
 >>>>>>> master
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43130434" sideWeight="0.4996016" order="3" side_tool="false" content_ui="tabs" />
@@ -999,7 +1103,10 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1009,6 +1116,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
+>>>>>>> master
 >>>>>>> master
     <entry file="file://$PROJECT_DIR$/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1335,7 +1447,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 =======
     <entry file="file://$PROJECT_DIR$/blog/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1377,6 +1492,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+<<<<<<< HEAD
+=======
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
+>>>>>>> master
 >>>>>>> master
         </state>
       </provider>
@@ -1428,6 +1548,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1275">
@@ -1443,6 +1564,8 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
     <entry file="file://$PROJECT_DIR$/blog/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
@@ -1457,6 +1580,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1501,6 +1625,8 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
     <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="540">
@@ -1557,35 +1683,84 @@
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
 =======
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="960">
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
 =======
     <entry file="file://$PROJECT_DIR$/bloggy/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="330">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+=======
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.4" vertical-offset="45" max-vertical-offset="585">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/blog/tests/test_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1371" max-vertical-offset="2130">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
+>>>>>>> master
 >>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/blog/tests/test_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.021929825" vertical-offset="0" max-vertical-offset="684">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
 =======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="1425">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+>>>>>>> master
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88616717" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+>>>>>>> 623bc14af627c3a3fff143e525f720682b058f27
+=======
 >>>>>>> master
 >>>>>>> master
           <folding />

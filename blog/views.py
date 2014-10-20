@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, render_to_response
 from django.core.mail import send_mail
 # Create your views here.
 from blog.forms import CommentForm, BlogPostForm, AuthorForm, TagForm, ContactForm
-from models import Comment, BlogPost, Author, Tag, User
+from models import Comment, BlogPost, Author, Tag,  Reader
 
 def home(request):
     return render_to_response("home.html")
@@ -76,7 +76,7 @@ def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
-            user = User.objects.create(name=form.cleaned_data['name'], email = form.cleaned_data['email'])
+            user = Reader.objects.create(name=form.cleaned_data['name'], email = form.cleaned_data['email'])
             subject = form.cleaned_data['subject']
             message = form.cleaned_data['message']
             send_mail(subject, message, 'jweinsziehr@gmx.de', [user.email] )

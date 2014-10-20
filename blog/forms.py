@@ -1,24 +1,27 @@
+from django.forms import ModelForm
+
 __author__ = 'johanna'
 from django import forms
 from blog.models import Author, BlogPost
 from django.core.exceptions import ValidationError
+from models import Comment, Author, BlogPost
 import re
 
 def no_swearwords_validator(value):
     if re.match("shit|fuck|bitch", value) is not None:
         raise ValidationError("You can not swear on this blog!")
 
-class CommentForm(forms.Form):
-    author = forms.ModelChoiceField(queryset=Author.objects.all())
-    comment_body = forms.CharField(validators=[ no_swearwords_validator ])
+class CommentForm(ModelForm):
+    class Meta:
+        model = Comment
 
-class BlogPostForm(forms.Form):
-    author = forms.ModelChoiceField(queryset=Author.objects.all())
-    title = forms.CharField(max_length=120)
-    text = forms.CharField()
+class BlogPostForm(ModelForm):
+    class Meta:
+        model = BlogPost
 
-class AuthorForm(forms.Form):
-    name = forms.CharField(max_length=120)
+class AuthorForm(ModelForm):
+    class Meta:
+        model = Author
 
 class TagForm(forms.Form):
     name = forms.CharField(max_length=120)

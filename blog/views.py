@@ -59,7 +59,7 @@ def add_tag(request):
 
     else:
         data = { "tag_form": TagForm() }
-    return render(request, "add_tag.html", data)
+        return render(request, "add_tag.html", data)
 
 def contact(request):
     data = { "contact_form": ContactForm() }

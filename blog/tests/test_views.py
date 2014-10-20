@@ -1,6 +1,5 @@
 from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect
-# from django.template import response
 from django.test import TestCase
 
 # Create your tests here.
@@ -16,18 +15,22 @@ class ViewTestCase(TestCase):
 
     def test_add_tag(self):
         name = 'happy-test-tag'
+        post = 'happy-test-title'
         data = {
             'name': name,
             'post': post
         }
         response = self.client.post(reverse('add_tag'), data)
 
+        # Check to see if form exists
+        self.assertIn(b'<input type="submit" value="Send contact request" />', response.content)
+
         # Check this tag was added in the database
         self.assertTrue(Tag.objects.filter(name=name).exists())
 
-        # Check it redirects to the blog post home page
+        # Check it's a redirect to the profile page
         self.assertIsInstance(response, HttpResponseRedirect)
-        self.assertTrue(response.get('location').endwith(reverse('home')))
+        self.assertTrue(response.get('location').endswith(reverse('add_tag')))
 
     def test_contact(self):
         name = 'jane-test'
@@ -47,7 +50,3 @@ class ViewTestCase(TestCase):
 
         # Check this message was added in the database ???
         # self.assertTrue(User.objects.filter(name=name).exists())
-
-        # Check it redirects to the blog post home page
-        self.assertIsInstance(response, HttpResponseRedirect)
-        self.assertTrue(response.get('location').endwith(reverse('home')))

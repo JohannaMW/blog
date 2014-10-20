@@ -21,15 +21,14 @@ class ViewTestCase(TestCase):
         self.assertTrue(response.get('location').endswith(reverse('authors')))
 
     def test_add_blogpost(self):
-        author = create_author()
-        print author
+        author = Author.objects.create(name='test_author')
         title = 'test_title'
         data = { 'title' : title,
                  'text' : 'test_text',
                  'author' : author }
         response = self.client.post(reverse('add_blogpost'), data)
         # Check if post was created
-        self.assertTrue(BlogPost.objects.filter(title= title).exists())
+        self.assertTrue(BlogPost.objects.filter(author=author).exists())
         # check if there was a redirect
         self.assertIsInstance(response, HttpResponseRedirect)
         self.assertTrue(response.get('location').endswith(reverse('blogposts')))

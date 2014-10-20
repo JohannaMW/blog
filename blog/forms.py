@@ -4,7 +4,7 @@ __author__ = 'johanna'
 from django import forms
 from blog.models import Author, BlogPost
 from django.core.exceptions import ValidationError
-from models import Comment, Author, BlogPost
+from models import Comment, Author, BlogPost, Tag
 import re
 
 def no_swearwords_validator(value):
@@ -23,9 +23,9 @@ class AuthorForm(ModelForm):
     class Meta:
         model = Author
 
-class TagForm(forms.Form):
-    name = forms.CharField(max_length=120)
-    post = forms.ModelChoiceField(queryset=BlogPost.objects.all())
+class TagForm(ModelForm):
+    class Meta:
+        model = Tag
 
 class ContactForm(forms.Form):
     name = forms.CharField(max_length=120)

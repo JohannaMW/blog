@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+{% extends "base_template.html" %}
+
+{% block content %}
+<h1>Add an Author</h1>
+
 <form method="POST">
     {% csrf_token %}
     {{ author_form }}
     <input type="submit" value="Submit author" />
 </form>
-<a href="{% url 'home' %}">Home</a><br>
-<a href="{% url "add_blogpost" %}">Add a Blogpost</a><br>
-<a href="{% url "add_comment" %}">Add a comment</a><br>
-<a href="{% url "add_tag" %}">Add a Tag</a><br>
-</body>
-</html>
+
+{% endblock %}

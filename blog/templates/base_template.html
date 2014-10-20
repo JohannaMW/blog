@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+{% load staticfiles %}
+<head lang="en">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+    <link href="{% static "css/bootstrap.css" %}" rel="stylesheet">
+    <link href="{% static "css/bootswatch.less" %}" rel="stylesheet">
+    <link href="{% static "css/variables.less" %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
+
+</head>
+<body>
+<div class="navbar navbar-default">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="{% url 'home' %}">Bloggy</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+
+
+                  <ul class="nav navbar-nav navbar-right">
+                         <li><a href="{% url 'add_author' %}">Add author</a></li>
+
+
+                        <li><a href="{% url 'add_blogpost' %}">Add Post</a></li>
+
+<li><a href="{% url 'add_comment' %}">Add Comment</a></li>
+                      <li><a href="{% url 'add_tag' %}">Add Tag</a></li>
+
+                  </ul>
+                </div>
+              </div>
+{% block content  %}
+
+{% endblock %}
+</body>
+</html>

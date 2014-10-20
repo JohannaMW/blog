@@ -9,6 +9,22 @@ def create_author():
 
 class ViewTestCase(TestCase):
 
+    def test_home_page(self):
+        response = self.client.get(reverse('home'))
+        self.assertIn('Welcome', response.content)
+
+    def test_authors_page(self):
+        response = self.client.get(reverse('authors'))
+        self.assertIn('Authors', response.content)
+
+    def test_blogpost_page(self):
+        response = self.client.get(reverse('blogposts'))
+        self.assertIn('Posts', response.content)
+
+    def test_comments_page(self):
+        response = self.client.get(reverse('comments'))
+        self.assertIn('Comments', response.content)
+
     def test_add_author(self):
         name = 'test_author'
         data = { 'name' : name }

@@ -43,10 +43,14 @@ class ViewTestCase(TestCase):
             'subject': subject,
             'message': message
         }
-        response = self.client.get(reverse('contact'), data)
+        response = self.client.post(reverse('contact'), data)
 
         # Check to see if form exists
-        self.assertIn(b'<input type="submit" value="Send contact request" />', response.content)
+        # self.assertIn(b'<input type="submit" value="Send contact request" />', response.content)
 
         # Check this message was added in the database ???
         # self.assertTrue(User.objects.filter(name=name).exists())
+
+        # Check it's a redirect to the profile page
+        self.assertIsInstance(response, HttpResponseRedirect)
+        self.assertTrue(response.get('location').endswith(reverse('contact')))

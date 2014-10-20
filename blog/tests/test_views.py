@@ -1,5 +1,5 @@
 from django.core.urlresolvers import reverse
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.test import TestCase
 from ..models import Author, BlogPost, Comment
 
@@ -9,11 +9,6 @@ def create_author():
 
 
 class ViewTestCase(TestCase):
-    def test_add_comment(self):
-        pass
-
-    def test_add_blogpost(self):
-        pass
 
     def test_add_author(self):
         name = 'test_author'
@@ -27,6 +22,7 @@ class ViewTestCase(TestCase):
 
     def test_add_blogpost(self):
         author = create_author()
+        print author
         title = 'test_title'
         data = { 'title' : title,
                  'text' : 'test_text',

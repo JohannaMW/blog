@@ -21,7 +21,8 @@ def add_comment(request):
     if request.method == 'POST':
         form = CommentForm(request.POST)
         if form.is_valid():
-            Comment.objects.create(author=form.cleaned_data['author'], body = form.cleaned_data['comment_body'])
+            form.save()
+           # Comment.objects.create(author=form.cleaned_data['author'], body = form.cleaned_data['comment_body'])
             return redirect("comments")
 
         else:
@@ -36,9 +37,7 @@ def add_blogpost(request):
     if request.method == 'POST':
         form = BlogPostForm(request.POST)
         if form.is_valid():
-            blogpost = BlogPost.objects.create(author=form.cleaned_data['author'], title = form.cleaned_data['title'],
-                                    text = form.cleaned_data['text'] )
-            blogpost.save()
+            form.save()
             return redirect("blogposts")
 
     else:
@@ -50,8 +49,7 @@ def add_author(request):
     if request.method == 'POST':
         form = AuthorForm(request.POST)
         if form.is_valid():
-            author = Author.objects.create(name=form.cleaned_data['name'])
-            author.save()
+            form.save()
             return redirect("authors")
 
     else:
